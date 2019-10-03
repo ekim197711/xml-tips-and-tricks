@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://spaceship"
+        xmlns:sp="http://spaceship"
+>
+
+    <element name="spaceship" type="sp:spaceshipType"/>
+
+    <simpleType name="fuelType">
+        <restriction base="string">
+            <pattern value="[0-9]{0,10}"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="spaceshipType">
+        <all>
+            <element name="name" type="string"/>
+            <element name="fuel" type="sp:fuelType"/>
+            <element name="crewmembers" type="integer" minOccurs="0" maxOccurs="1" />
+        </all>
+    </complexType>
+
+
+</schema>

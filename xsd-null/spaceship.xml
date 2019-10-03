@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sp:spaceship xmlns:sp="http://spaceship">
+    <name></name>
+    <fuel>1234567890</fuel>
+    <crewmembers>-1</crewmembers>
+</sp:spaceship>
