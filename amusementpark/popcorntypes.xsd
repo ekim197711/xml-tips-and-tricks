@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://mikeswebsite/amusementpark/popcorn"
+xmlns:pop="http://mikeswebsite/amusementpark/popcorn"
+>
+    <complexType name="popcornmachineType">
+        <sequence minOccurs="0" maxOccurs="unbounded">
+            <element name="popcornproduct" type="pop:popcornproductType"/>
+        </sequence>
+    </complexType>
+    <complexType name="popcornproductType">
+        <all>
+            <element name="name" type="string"/>
+            <element name="spicyness" type="integer"/>
+        </all>
+    </complexType>
+</schema>

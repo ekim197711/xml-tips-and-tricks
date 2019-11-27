@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://mikeswebsite/amusementpark/mascot"
+        xmlns:ma="http://mikeswebsite/amusementpark/mascot">
+
+    <complexType name="mascotsType">
+        <sequence minOccurs="0" maxOccurs="unbounded">
+            <element name="mascot" type="ma:mascotType"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="mascotType">
+        <all>
+            <element name="person" type="string" />
+            <element name="dressedoutlike" type="ma:dressedoutlikeType" />
+            <element name="timeframe" type="string" />
+        </all>
+    </complexType>
+
+    <simpleType name="dressedoutlikeType">
+        <restriction base="string">
+            <enumeration value="Dog"/>
+            <enumeration value="Whale"/>
+            <enumeration value="Fish"/>
+            <enumeration value="Chili"/>
+            <enumeration value="Ice bear"/>
+        </restriction>
+    </simpleType>
+</schema>

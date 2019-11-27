@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://mikeswebsite/amusementpark"
+        xmlns:mw="http://mikeswebsite/amusementpark"
+        xmlns:pc="http://mikeswebsite/amusementpark/popcorn"
+        xmlns:mc="http://mikeswebsite/amusementpark/mascot"
+>
+    <import namespace="http://mikeswebsite/amusementpark/popcorn" schemaLocation="popcorntypes.xsd"/>
+    <import namespace="http://mikeswebsite/amusementpark/mascot" schemaLocation="mascot.xsd"/>
+
+    <element name="amusementpark" type="mw:amusementparkType"/>
+    <complexType name="amusementparkType">
+        <all>
+            <element name="name" type="string"/>
+            <element name="popcornmachine" type="pc:popcornmachineType"/>
+            <element name="mascots" type="mc:mascotsType"/>
+        </all>
+    </complexType>
+</schema>

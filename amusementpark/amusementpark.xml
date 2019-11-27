@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mw:amusementpark
+xmlns:mw="http://mikeswebsite/amusementpark">
+    <name>Spicy Chili Festival</name>
+    <popcornmachine>
+        <popcornproduct>
+            <name>Chili Popcorn</name>
+            <spicyness>9</spicyness>
+        </popcornproduct>
+        <popcornproduct>
+            <name>Sugar Popcorn</name>
+            <spicyness>1</spicyness>
+        </popcornproduct>
+    </popcornmachine>
+    <mascots>
+        <mascot>
+            <person>Susanne</person>
+            <dressedoutlike>Ice bear</dressedoutlike>
+            <timeframe>14-15</timeframe>
+        </mascot>
+        <mascot>
+            <person>Michael</person>
+            <dressedoutlike>Whale</dressedoutlike>
+            <timeframe>12-13</timeframe>
+        </mascot>
+    </mascots>
+</mw:amusementpark>
