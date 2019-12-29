@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ss:spacestation xmlns:ss="http://mikesspacestation">
+    <captain>Mike</captain>
+    <fuel>80.5</fuel>
+    <spaceship>Eagle</spaceship>
+    <spaceship>Hawk</spaceship>
+    <spaceship>Falcon</spaceship>
+    <spaceship>Swan</spaceship>
+    <spaceship>Blackbird</spaceship>
+</ss:spacestation>

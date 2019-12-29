@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3ddeb8-f5ba-4090-83d7-66653612738c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/amusementpark/amusementpark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amusementpark/amusementpark.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amusementpark/mascot.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/amusementpark/popcorntypes.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlfile/spaceships.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space/withlistwrapper/spacestation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space/withlistwrapper/spacestation.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space/withoutlistwrapper/spacestation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space/withoutlistwrapper/spacestation.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/space/withlistwrapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/space/withlistwrapper" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,8 +61,17 @@
       <updated>1570132397893</updated>
       <workItem from="1570132404102" duration="1874000" />
       <workItem from="1573156541344" duration="1066000" />
-      <workItem from="1574889975241" duration="1956000" />
+      <workItem from="1574889975241" duration="2834000" />
+      <workItem from="1577656502718" duration="1442000" />
     </task>
+    <task id="LOCAL-00001" summary="amusementpark">
+      <created>1574892113541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574892113541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="amusementpark" />
+    <option name="LAST_COMMIT_MESSAGE" value="amusementpark" />
   </component>
 </project>

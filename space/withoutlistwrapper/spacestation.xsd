@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://mikesspacestation"
+    xmlns:ss="http://mikesspacestation"
+>
+    <element name="spacestation" type="ss:spacestationType"/>
+    <complexType name="spacestationType">
+        <sequence minOccurs="1" maxOccurs="1">
+            <element name="captain" type="string"/>
+            <element name="fuel" type="decimal"/>
+            <element name="spaceship" type="string" maxOccurs="20"/>
+        </sequence>
+    </complexType>
+
+
+
+</schema>

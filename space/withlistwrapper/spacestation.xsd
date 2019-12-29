@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://mikesspacestationWithListWrapper"
+    xmlns:ss="http://mikesspacestationWithListWrapper"
+>
+    <element name="spacestation" type="ss:spacestationType"/>
+    <complexType name="spacestationType">
+        <all>
+            <element name="captain" type="string"/>
+            <element name="fuel" type="decimal"/>
+            <element name="spaceshipsReadyToLaunch" type="ss:spaceshipsReadyToLaunchType"/>
+        </all>
+    </complexType>
+
+    <complexType name="spaceshipsReadyToLaunchType">
+        <sequence minOccurs="0" maxOccurs="20">
+            <element name="spaceship" type="string"/>
+        </sequence>
+    </complexType>
+
+
+
+</schema>
