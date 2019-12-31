@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://mikesChoiceDemo"
+    xmlns:ss="http://mikesChoiceDemo"
+>
+    <element name="spacestation" type="ss:spacestationType"/>
+    <complexType name="spacestationType">
+        <all>
+            <element name="extraCargoSpace" type="boolean" minOccurs="0"/>
+            <element name="extraHospital" type="boolean" minOccurs="0"/>
+
+            <element name="captainOrGovenor" type="ss:captainOrGovenorType"/>
+            <element name="fuel" type="decimal"/>
+            <element name="spaceshipsReadyToLaunch" type="ss:spaceshipsReadyToLaunchType"/>
+        </all>
+    </complexType>
+
+    <complexType name="captainOrGovenorType">
+        <choice>
+            <element name="captain" type="string"/>
+            <element name="govenor" type="string"/>
+        </choice>
+    </complexType>
+
+    <complexType name="spaceshipsReadyToLaunchType">
+        <sequence minOccurs="0" maxOccurs="20">
+            <choice>
+                <element name="roundspaceship" type="string"/>
+                <element name="squarespaceship" type="string"/>
+            </choice>
+        </sequence>
+    </complexType>
+
+
+
+</schema>

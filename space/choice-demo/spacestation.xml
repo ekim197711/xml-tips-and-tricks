@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ss:spacestation xmlns:ss="http://mikesChoiceDemo">
+    <fuel>80.5</fuel>
+<!--    <extraCargoSpace>true</extraCargoSpace>-->
+
+    <spaceshipsReadyToLaunch>
+        <roundspaceship>Eagle</roundspaceship>
+        <squarespaceship>Hawk</squarespaceship>
+        <roundspaceship>Falcon</roundspaceship>
+        <roundspaceship>Swan</roundspaceship>
+        <squarespaceship>Blackbird</squarespaceship>
+    </spaceshipsReadyToLaunch>
+<!--    <extraHospital>false</extraHospital>-->
+    <captainOrGovenor>
+<!--        <govenor>Mike</govenor>-->
+        <captain>Mike</captain>
+    </captainOrGovenor>
+</ss:spacestation>

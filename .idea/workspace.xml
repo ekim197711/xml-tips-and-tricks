@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3ddeb8-f5ba-4090-83d7-66653612738c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/space/withlistwrapper/spacestation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space/withlistwrapper/spacestation.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space/withoutlistwrapper/spacestation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/space/withoutlistwrapper/spacestation.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space/choice-demo/spacestation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/space/choice-demo/spacestation.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +26,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/space/withlistwrapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/space/anydemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/space/anydemo" />
       <recent name="$PROJECT_DIR$/space/withlistwrapper" />
     </key>
   </component>
